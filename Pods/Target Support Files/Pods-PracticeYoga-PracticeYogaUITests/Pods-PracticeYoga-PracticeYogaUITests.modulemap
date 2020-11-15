@@ -1,0 +1,6 @@
+framework module Pods_PracticeYoga_PracticeYogaUITests {
+  umbrella header "Pods-PracticeYoga-PracticeYogaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
