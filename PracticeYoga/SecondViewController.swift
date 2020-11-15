@@ -20,6 +20,7 @@ class SecondViewController: UIViewController {
             layout.alignItems = .center
             layout.flexDirection = .column
             layout.justifyContent = .center
+            
         }
         let contentView = UIView()
         contentView.backgroundColor = .systemRed
