@@ -52,7 +52,17 @@ class ViewController: UIViewController {
         view.addSubview(contentView)
         
         view.yoga.applyLayout(preservingOrigin: true)
+        let butto = UIButton(frame: CGRect(x: 0, y: 300, width: 100, height: 100))
+        butto.backgroundColor = .brown
+        view.addSubview(butto)
+        butto.addTarget(self, action: #selector(go), for: .touchUpInside)
         
+    }
+    @objc func go(){
+        let story = UIStoryboard(name: "Main", bundle: nil)
+        let vc = story.instantiateViewController(identifier: "SecondViewController")
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true, completion: nil)
     }
 
 

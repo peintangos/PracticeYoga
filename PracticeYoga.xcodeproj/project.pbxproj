@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		0FD770622561248A00F4F53A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD770602561248A00F4F53A /* LaunchScreen.storyboard */; };
 		0FD7706D2561248B00F4F53A /* PracticeYogaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD7706C2561248B00F4F53A /* PracticeYogaTests.swift */; };
 		0FD770782561248B00F4F53A /* PracticeYogaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD770772561248B00F4F53A /* PracticeYogaUITests.swift */; };
+		0FD7709725612D9100F4F53A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD7709625612D9100F4F53A /* SecondViewController.swift */; };
 		78479EA863B81B3FC2B3652A /* Pods_PracticeYogaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3084CFB13D7009B8F367C18 /* Pods_PracticeYogaTests.framework */; };
 		86F5342F9551C51840F4603C /* Pods_PracticeYoga.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B397C3908AC4D9ABFF197396 /* Pods_PracticeYoga.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		0FD770732561248B00F4F53A /* PracticeYogaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeYogaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FD770772561248B00F4F53A /* PracticeYogaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeYogaUITests.swift; sourceTree = "<group>"; };
 		0FD770792561248B00F4F53A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FD7709625612D9100F4F53A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		0FF8B0E3BC387B3959A40923 /* Pods_PracticeYoga_PracticeYogaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PracticeYoga_PracticeYogaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A951D1674853C128A846C5 /* Pods-PracticeYoga.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeYoga.release.xcconfig"; path = "Target Support Files/Pods-PracticeYoga/Pods-PracticeYoga.release.xcconfig"; sourceTree = "<group>"; };
 		258164F0225CD314C1C7C1B6 /* Pods-PracticeYogaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeYogaTests.release.xcconfig"; path = "Target Support Files/Pods-PracticeYogaTests/Pods-PracticeYogaTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				0FD7705E2561248A00F4F53A /* Assets.xcassets */,
 				0FD770602561248A00F4F53A /* LaunchScreen.storyboard */,
 				0FD770632561248A00F4F53A /* Info.plist */,
+				0FD7709625612D9100F4F53A /* SecondViewController.swift */,
 			);
 			path = PracticeYoga;
 			sourceTree = "<group>";
@@ -165,7 +168,6 @@
 				F6C8C56E2F667424ED9250DE /* Pods-PracticeYogaTests.debug.xcconfig */,
 				258164F0225CD314C1C7C1B6 /* Pods-PracticeYogaTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -407,6 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FD7709725612D9100F4F53A /* SecondViewController.swift in Sources */,
 				0FD7705A2561248900F4F53A /* ViewController.swift in Sources */,
 				0FD770562561248900F4F53A /* AppDelegate.swift in Sources */,
 				0FD770582561248900F4F53A /* SceneDelegate.swift in Sources */,
